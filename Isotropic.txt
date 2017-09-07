@@ -1,0 +1,17 @@
+*Materials
+Name,Thickness,E11,E22,v12,G12,Xt,Xc,Yt,Yc,S,F12 (TsaiWu)
+Elgass/Ep,100e-6,43.2e9,12.5e9,0.28,4.2e9,972e6,702e6,40e6,140e6,30e6,-0.5
+*Laminates
+Laminate Name,Ply Angle,No. of Plies,Ply Material
+Isotropic,,,
+,0,1,Elgass/Ep
+,45,1,Elgass/Ep
+,-45,1,Elgass/Ep
+,90,1,Elgass/Ep
+,90,1,Elgass/Ep
+,-45,1,Elgass/Ep
+,45,1,Elgass/Ep
+,0,1,Elgass/Ep
+*Loads
+Name,Nx,Ny,Nxy,Mx,My,Mxy
+Load#1,1e6,0,0,0,0,0
